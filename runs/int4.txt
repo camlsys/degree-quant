@@ -1,0 +1,5 @@
+Namespace(DQ=False, batch_size=128, change=0.1, epochs=200, fp32=False, gc_abs=False, gc_mom=False, gc_per=False, hidden=64, int4=True, int8=False, low=0.0, lr=0.05, lr_decay_factor=0.5, lr_decay_step_size=50, noise=1.0, num_layers=5, outdir='./run', path='./data', sample_prop=None, ste_abs=False, ste_mom=True, ste_per=False, wd=4e-05)
+model has 42503 parameters
+Output dir:run/GIN/layers_5/hidden_64/INT4/STE_MOM/lr_0.05/wd_4e-05/03_06_02_30_30
+Val Loss: 0.6307, Test Accuracy: 0.562 ± 0.082, Duration: 385.339
+Result - 0.562 ± 0.082

@@ -1,0 +1,6 @@
+Namespace(DQ=True, batch_size=128, change=0.1, epochs=200, fp32=False, gc_abs=False, gc_mom=False, gc_per=True, hidden=64, int4=True, int8=False, low=0.1, lr=0.001, lr_decay_factor=0.5, lr_decay_step_size=50, noise=1.0, num_layers=5, outdir='./run', path='./data', sample_prop=None, ste_abs=False, ste_mom=False, ste_per=False, wd=4e-05)
+Generating ProbabilisticHighDegreeMask: {'prob_mask_low': 0.1, 'prob_mask_change': 0.1}
+model has 42503 parameters
+Output dir:run/GIN/layers_5/hidden_64/INT4_DQ_low0.1_chng0.1/GC_PER/lr_0.001/wd_4e-05/03_05_15_39_23
+Val Loss: 0.2713, Test Accuracy: 0.862 ± 0.032, Duration: 3906.393
+Result - 0.862 ± 0.032
