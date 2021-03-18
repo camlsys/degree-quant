@@ -67,7 +67,8 @@ def get_dataset(path, name, sparse=True, cleaned=False, DQ=None):
         dq_transform = ProbabilisticHighDegreeMask(
             DQ["prob_mask_low"], min(DQ["prob_mask_low"] + DQ["prob_mask_change"], 1.0)
         )
-
+        # NOTE: see issue #1 if you are customizing for your own dataset
+        # dataset.transform may be None (not the case here)
         dataset.transform = T.Compose([dataset.transform, dq_transform])
 
     return dataset
